@@ -111,6 +111,6 @@ async def delete_task(task_id: int):
     conn.commit()
     conn.close()
 
-    return  {"message": f"Task {tid} was deleted successfully"}
+    return  {"message": f"Task {tid} deleted successfully"}
 
     
